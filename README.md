@@ -4,4 +4,40 @@
 
 1. Run the script:
 
-`. <(wget -qO- https://raw.githubusercontent.com/f5nodes/root/main/root.sh masa)`
+```sh
+. <(wget -qO- https://raw.githubusercontent.com/f5nodes/root/main/f5.sh) subspace uk
+```
+
+2. Wait till the end of installation, then enter your nodename in the input.
+
+## Commands
+
+#### Check node logs:
+
+```sh
+journalctl -u masad -f -o cat
+```
+
+CTRL + C to exit logs
+
+#### Open node menu:
+
+```sh
+geth attach ipc:$HOME/masa-node-v1.0/data/geth.ipc
+```
+
+#### Menu options:
+
+check sync status
+
+```sh
+eth.syncing
+```
+
+check peers count
+
+```sh
+net.peerCount
+```
+
+CTRL + D to exit menu
