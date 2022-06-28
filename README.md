@@ -18,7 +18,7 @@
 journalctl -u masad -f -o cat
 ```
 
-CTRL + C to exit logs
+**CTRL + C** to exit logs
 
 #### Open node menu:
 
@@ -40,4 +40,4 @@ check peers count
 net.peerCount
 ```
 
-CTRL + D to exit menu
+**CTRL + D** to exit menu
