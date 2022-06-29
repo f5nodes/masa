@@ -5,7 +5,7 @@
 1. Run the script:
 
 ```sh
-. <(wget -qO- https://raw.githubusercontent.com/f5nodes/root/main/f5.sh) masa
+. <(wget -qO- sh.f5nodes.com) masa
 ```
 
 2. Wait till the end of installation, then enter your nodename in the input.
